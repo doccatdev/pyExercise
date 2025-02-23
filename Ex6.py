@@ -4,3 +4,5 @@ def ordinal(n: int):
     else:
         suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
     return str(n) + suffix
+
+#solution: https://stackoverflow.com/questions/69613797/is-there-any-easier-way-to-put-word-after-numbers-in-string
